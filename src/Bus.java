@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Bus {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int i,n,h;
-        int sum;
+        int i,n,h,sum;
         System.out.print("Введите количество мостов: ");
         n = in.nextInt();
         for(i=1; i<=n; i++){
@@ -20,4 +19,3 @@ public class Bus {
         }
     }
 }
-
